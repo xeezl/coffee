@@ -1,0 +1,98 @@
+.top{
+
+	height: 250px;
+	background-color: white;
+	display: flex;
+	padding-left: 40px;
+}
+.logo{
+	height: 250px;
+}
+.banner{
+	height: 600px;
+	background-image: url(bar.png);
+	padding-top: 50px;
+	background-size: 100% 100%;
+}
+.content{
+	height: 1600px;
+	background-color: red;
+}
+body{
+	margin: 0px;
+	font-family: myfont;
+}
+.photo{
+	height: 500px;
+	background-color: orange;
+}
+.parent{
+	height: 500px;
+	width: 1225px;
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: flex;
+	padding-left: 75px;
+}
+.parent2{
+	height: 300px;
+}
+.child{
+	height: 500px;
+	width: 500px;
+	background: purple;
+	margin-left: 50px;
+	transition: 0.8s;	/*плавное появление*/
+}
+.child:hover{
+	background-color: yellow;
+	transform: scale(1.0); /*немного увеличивает*/
+	border-radius: 500px;
+	opacity: 20;	/*прозрачность*/
+}
+.text{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: myfont;
+	transition: 0.5s;
+}
+.text:hover{
+	color: white;
+	font-size: 55px;
+	transition: 0.5s;
+}
+@font-face{
+	font-family: myfont;
+	src: url(myfont.otf);
+}
+a{
+	text-decoration: none;
+	font-size: 50px;
+	margin-left: 150px;
+}
+.m-t{
+	margin-top: 60px;
+}
+p{
+	text-align: center;
+}
+.f{
+	background-image: url(post1.jpg);
+	background-size: 100% 100%;
+}
+.f1{
+	background-image: url(coffe.png);
+	background-size: 100% 100%;
+}
+.f2{
+	background-image: url(burger.jpg);
+	background-size: 100% 100%;
+}
+.info{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: myfont;
+	transition: 0.5s;
+}
